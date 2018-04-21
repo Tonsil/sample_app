@@ -1,6 +1,14 @@
 class ApplicationController < ActionController::Base
 
     def hello
-        render plain: "Hey there, smoochie!"
+    end
+
+    def help
+    end
+
+    def about
+    end
+
+    def contact
     end
 end
